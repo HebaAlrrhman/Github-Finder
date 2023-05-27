@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+  body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.navbar {
+  display: flex;
+  background-color: #24292f;
+
+  min-height: 10vh;
+  align-items: center;
+}
+.right-icone{
+  display: inline-block;
+}
+
+.github-icon .fa-github{
+  color: aliceblue;
+  margin: 1.5rem;
+  font-size: 1.5rem;
+}
+#search {
+  padding: 0.8rem;
+  margin: 0.6rem;
+  width: 21vw;
+  height: 5vh;
+  background-color: #24292f;
+  border: 0.5px solid white;
+  border-radius: 0.5rem;
+  color: aquamarine;
+}
+
+
+.nav-list {
+  display: flex;
+  color: white;
+  list-style-type: none;
+
+  margin-left: 1rem;
+  gap: 2rem;
+}
+.nav-list a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  width: 30%;
+}
+.header-list {
+  display: flex;
+  flex-grow: 1;
+  list-style-type: none;
+  gap: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 1.3rem;
+}
+.header-list svg{
+  display:inline-block;
+  margin-right: 0.5rem;
+  align-items: center;
+}
+
+.container {
+  padding-inline: 5rem;
+  display: flex;
+}
+.profile-info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.container img {
+  border-radius: 50%;
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  margin-top: -3rem;
+  margin-left: 3rem;
+}
+.container h3 {
+  margin: 1rem;
+  font-size: 20px;
+  color: #656d76;
+}
+.btn-Edit {
+  width: 18rem;
+  height: 1.8rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(31,35,40,0.15);
+  background-color: #f6f8fa;
+  color: #24292f;
+}
+.empty {
+  width: 30%;
+}
+header {
+  display: flex;
+}
+svg {
+  fill: #656d76;
+}
+li svg{
+  gap: 2rem;
+}
+
+.repo {
+  list-style-type: none;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-left: 0.5rem;
+}
+.repo-box-one,
+.repo-box-tow {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+.repo-box-one li,
+.repo-box-tow li {
+  width: 28rem;
+  height: 7rem;
+  border: 1px solid #d0d7de;
+  border-radius: 0.6rem;
+  list-style-type: none;
+  padding: 0.8rem;
+
+}
+
+.btn-Public button{
+  border: 1px solid #d0d7de;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  background-color: white;
+  color: #656d76;
+ 
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.repo-color{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border:  0.2px solid #656d76 ;
+  border-radius: 50%;
+  background-color: red;
+  margin-right:  0.3rem;
+
+}
+
+.repo-color-js{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 0.5px solid #656d76 ;
+  border-radius: 50%;
+  background-color: yellow;
+  margin-right:  0.3rem;
+}
+.repo-color-regis{
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 0.5px solid #656d76 ;
+  border-radius: 50%;
+  background-color: purple;
+  margin-right:  0.3rem;
+}
+.namerepo h4{
+  color: #5095E5;
+  padding-bottom: 1.5rem;
+}
+.namerepo h5{
+  color: #656d76;
+  font-size: 0.8rem;
+  
+}
+.hold-follow h4{
+  display:inline-block;
+  margin-top: 1rem;
+  color:#656d76;
+   margin-right: 5rem;
+  
+}
+
+.repo-box-one p{
+  margin-right: 1rem;
+}
+footer{
+  list-style-type: none;
+  display: flex;
+}
+
+.foot{
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  align-items: center;
+  color: #0969DA;
+  margin-top:6rem ;
+  margin-left: 15rem;
+  border-top: 1px solid #d0d7de;
+  
+}
+#foot-icon{
+color:#656d76;
+font-size: x-large;
+}
+.foot span{
+color:#656d76 ;
+}
+
+
+.holed-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 20rem;
+  height: 10rem;
+  padding: 2rem;
+  margin: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
